@@ -1,0 +1,23 @@
+{
+  "name": "@fi4f/yggdrasil",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/fi4f/yggdrasil"
+  },
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.13",
+    "typescript": "^5.6.3"
+  }
+}
