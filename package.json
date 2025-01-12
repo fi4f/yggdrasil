@@ -1,9 +1,9 @@
 {
   "name": "@fi4f/yggdrasil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "repository": {
-    "url": "https://github.com/fi4f/yggdrasil"
+    "url": "git+https://github.com/fi4f/yggdrasil.git"
   },
   "main": "out/index.js",
   "types": "out/index.d.ts",
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fi4f/v": "^1.1.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
