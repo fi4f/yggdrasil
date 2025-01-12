@@ -1,6 +1,6 @@
 import Version from "@fi4f/v";
 
-export namespace Yggdrasil {
+export namespace Yggy {
   export const VERSION = Version({
     moniker: "Yggdrasil",
     major  : 0,
@@ -9,4 +9,4 @@ export namespace Yggdrasil {
   })
 }
 
-export default Yggdrasil;
+export default Yggy;
