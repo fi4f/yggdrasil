@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fi4f/v": "^1.1.0",
+    "@fi4f/v": "^1.1.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
