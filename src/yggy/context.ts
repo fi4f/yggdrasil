@@ -1,6 +1,5 @@
-import Listener from "./listener";
 import Tree     from "./tree";
-import Node     from "./node";
+import Listener from "./listener";
 
 export interface Context<T> {
   readonly self: Listener<T>

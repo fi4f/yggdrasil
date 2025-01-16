@@ -1,7 +1,7 @@
-import Action from "./action";
+import Node     from "./node";
+import Path     from "./path";
+import Action   from "./action";
 import Listener from "./listener";
-import Node from "./node";
-import Path from "./path";
 
 import { forEach } from "lodash";
 
@@ -37,11 +37,7 @@ export namespace Tree {
   }
 
   export function poll(tree: Tree) {
-    forEach(dump(tree), action => flush(tree, action));
-  }
-
-  export function dump(tree: Tree) {
-    return tree.queue.splice(0, tree.queue.length);
+    forEach(tree.queue.splice(0, tree.queue.length), action => flush(tree, action));
   }
 
   function queue(tree: Tree, a: Action) {

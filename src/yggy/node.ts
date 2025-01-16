@@ -1,5 +1,5 @@
+import Path     from "./path";
 import Listener from "./listener";
-import Path from "./path";
 
 export function Node(): Node {
   return { 
