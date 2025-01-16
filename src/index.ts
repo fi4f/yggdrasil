@@ -8,12 +8,9 @@ import Action   from "./yggy/action";
 import Context  from "./yggy/context";
 import Listener from "./yggy/listener";
 
-export const VERSION = yggy.VERSION
-
 export default {
   Version,
-  VERSION,
-  yggy,
+  ...yggy,
   Tree,
   Node,
   Path,
